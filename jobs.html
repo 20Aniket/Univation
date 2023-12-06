@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jobs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<header class="header">
+    <section class="flex">
+        <div id="menubtn" class="fas fa-bars-staggered"></div>
+        <a href="home.html" class="logo">
+            <i class="fa-regular fa-copy"></i>
+            Univation
+        </a>
+        <nav class="navbar">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="jobs.html">Jobs/ Internships</a>
+            <a href="opportunities.html">Opportunities</a>
+            <a href="contact.html">Contacts</a>
+            <a href="login.html"> Account </a>
+        </nav>
+        <a href="results.html" class="btn" style="margin-top:0;">Post Job</a>
+    </section>
+</header>
+<section class="jobs-filter">
+    <h1 class="heading">Filter Jobs</h1>
+    <form action="" method="post">
+        <div class="flex">
+            <div class="box">
+                <p>Job Title <span>*</span></p>
+                <input type="text" name="title" placeholder="Keyword, Category or Company" required maxlength="20" class="input">
+            </div>
+            <div class="box">
+                <p>Job Location <span>*</span></p>
+                <input type="text" name="Location" placeholder="Location, City or Country" required maxlength="50" class="input">
+            </div>
+        </div>
+        <div class="dropdown-container">
+            <div class="dropdown">
+                <input type="text" readonly name= "date" placeholder="Date"  maxlength="20" class="output">
+                <div class="lists">
+                    <p class="items">Today</p>
+                    <p class="items">3 days ago</p>
+                    <p class="items">7 days ago</p>
+                    <p class="items">10 days ago</p>
+                    <p class="items">15 days ago</p>
+                    <p class="items">30 days ago</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="text" readonly name= "date" placeholder="Current Grade Level" maxlength="20" class="output">
+                <div class="lists">
+                    <p class="items">Grade9</p>
+                    <p class="items">Grade 10</p>
+                    <p class="items">Grade 11</p>
+                    <p class="items">Grade 12</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <input type="text" readonly name= "date" placeholder="Shift" maxlength="20" class="output">
+                <div class="lists">
+                    <p class="items">Day Shift</p>
+                    <p class="items">Night Shift</p>
+                    <p class="items">Flexibe Shift</p>
+                    <p class="items">Fixed Shift</p>
+                </div>
+            </div>
+        </div>
+    </form>
+</section>
+<section class="jobs-container">
+    <h1 class="heading">ALL jobs</h1>
+    <a href="re" class="btn" style="margin-top:0; margin-bottom: 6px; margin-left: 475px;">Premium Resume</a>
+    <div class="box-container">
+        <div class="box">
+            <div class="comapany">
+                <div>
+                    <h3>IT infosys co.</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Senior Web Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>British Columbia, Canada</span></p>
+            <div class="tags">
+                <p><i class="fas fa-dollar-sign"></i><span> 125,000/yr</span></p>
+                <p><i class="fas fa-briefcase"></i><span> part time</span></p>
+                <p><i class="fas fa-clock"></i><span> day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button type="submit" class="far fa-heart" name="save"></button>
+            </div>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <div class="comapany">
+                <div>
+                    <h3>IT infosys co.</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Backend Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span> British Columbia, Canada</span></p>
+            <div class="tags">
+                <p><i class="fas fa-dollar-sign"></i><span> 165,000/yr</span></p>
+                <p><i class="fas fa-briefcase"></i><span> part time</span></p>
+                <p><i class="fas fa-clock"></i><span> day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button type="submit" class="far fa-heart" name="save"></button>
+            </div>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <div class="comapany">
+                <div>
+                    <h3>IT infosys co.</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Graphic Designer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span> British Columbia, Canada</span></p>
+            <div class="tags">
+                <p><i class="fas fa-dollar-sign"></i><span> 130,000/yr</span></p>
+                <p><i class="fas fa-briefcase"></i><span> part time</span></p>
+                <p><i class="fas fa-clock"></i><span> day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button type="submit" class="far fa-heart" name="save"></button>
+            </div>
+        </div>
+    </div>
+    <div class="box-container">
+        <div class="box">
+            <div class="comapany">
+                <div>
+                    <h3>IT infosys co.</h3>
+                    <span>2 days ago</span>
+                </div>
+            </div>
+            <h3 class="job-title">Junior Developer</h3>
+            <p class="location"><i class="fas fa-map-marker-alt"></i><span>British Columbia, Canada</span></p>
+            <div class="tags">
+                <p><i class="fas fa-dollar-sign"></i><span> 95,000/yr</span></p>
+                <p><i class="fas fa-briefcase"></i><span> part time</span></p>
+                <p><i class="fas fa-clock"></i><span> day shift</span></p>
+            </div>
+            <div class="flex-btn">
+                <a href="view_job.html" class="btn">view details</a>
+                <button type="submit" class="far fa-heart" name="save"></button>
+            </div>
+        </div>
+    </div>
+<footer class="footer">
+    <section class="grid">
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="home.html"><i class="fas fa-angle-right"></i>Home</a>
+            <a href="about.html"><i class="fas fa-angle-right"></i>About</a>
+            <a href="jobs.html"><i class="fas fa-angle-right"></i>All Jobs</a>
+            <a href="contact.html"><i class="fas fa-angle-right"></i>Contact Us</a>
+            <a href="#"><i class="fas fa-angle-right"></i>Filter Search</a>
+        </div>
+        <div class="box">
+            <h3>Extra Links</h3>
+            <a href="#"><i class="fas fa-angle-right"></i>Accounts</a>
+            <a href="login.html"><i class="fas fa-angle-right"></i>login</a>
+            <a href="register.html"><i class="fas fa-angle-right"></i>Register</a>
+            <a href="contact.html"><i class="fas fa-angle-right"></i> Register</a>
+            <a href="results.html"><i class="fas fa-angle-right"></i>Post Job</a>
+            <a href="#"><i class="fas fa-angle-right"></i>Dashboard</a>
+        </div>
+
+        <div class="box">
+            <h3>Follow Us</h3>
+            <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+        </div>
+    </section>
+    <div class="credit">&copy; copyright@2023 by <span>Univation</span>| all rights reserved</div>    
+
+
+<script>
+let dropdown_items = document.querySelectorAll('.jobs-filter form .dropdown-container .dropdown .lists .items');
+dropdown_items.forEach(item => {
+    item.onclick = () => {
+        let items_parent = item.parentElement.parentElement;
+        let output = items_parent.querySelector('.output');
+        output.value = item.innerText;
+    };
+});
+</script>
+
+
+</body>
+</html>
